@@ -1,35 +1,112 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="US Forever Films & Entertainment — Films, web series, music and digital entertainment.">
 <title>US Forever Films & Entertainment</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-<a class="brand" href="#home"><img src="logo.png" alt="US Forever Films & Entertainment"></a>
-<nav>
-<a href="#about">About</a><a href="#projects">Projects</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
-</nav>
+
+<header class="site-header" id="siteHeader">
+  <a class="brand" href="#home" aria-label="US Forever Films & Entertainment"><img src="logo.png" alt="US Forever Films & Entertainment"></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav class="main-nav" id="mainNav">
+    <a href="#home">Home</a><a href="#about">About Us</a><a href="#upcoming">Upcoming</a><a href="#previous">Previous</a>
+    <a href="#teasers">Teasers &amp; Trailers</a><a href="#vision">Behind the Vision</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+  </nav>
 </header>
+
 <main>
 <section id="home" class="hero">
-<div class="shade"></div>
-<div class="hero-content">
-<img class="hero-logo" src="logo.png" alt="US Forever Films & Entertainment">
-<p class="eyebrow">US FOREVER FILMS & ENTERTAINMENT</p>
-<h1>Stories That<br><span>Live Forever.</span></h1>
-<p>Films • Web Series • Music • Digital Entertainment</p>
-<div><a class="btn gold" href="#projects">Explore Projects</a><a class="btn" href="#contact">Work With Us</a></div>
-</div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <img class="hero-logo" src="logo.png" alt="US Forever Films & Entertainment">
+    <p class="eyebrow">US FOREVER FILMS &amp; ENTERTAINMENT</p>
+    <h1>Stories That<br><span>Live Forever.</span></h1>
+    <p class="hero-subtitle">Films • Web Series • Music • Digital Entertainment</p>
+    <div class="hero-actions"><a class="btn btn-gold" href="#upcoming">Explore Projects</a><a class="btn btn-outline" href="#contact">Work With Us</a></div>
+  </div>
+  <a class="scroll-cue" href="#about">Scroll</a>
 </section>
-<section id="about"><small>ABOUT US</small><h2>We create cinema with purpose.</h2><p>US Forever Films & Entertainment is a creative production house focused on memorable films, web series, music and digital entertainment.</p></section>
-<section id="projects" class="dark"><small>OUR WORK</small><h2>Projects</h2><p>Your films, web series and original projects can be featured here.</p></section>
-<section id="services"><small>WHAT WE DO</small><h2>Services</h2><div class="cards"><article>Film Production</article><article>Web Series</article><article>Digital Entertainment</article></div></section>
-<section id="gallery" class="dark"><small>GALLERY</small><h2>Behind the scenes.</h2><p>Posters, teasers, trailers and BTS images can be added here.</p></section>
-<section id="contact"><small>CONTACT</small><h2>Let's create something unforgettable.</h2><div class="contact"><a href="mailto:usforever391976@gmail.com">usforever391976@gmail.com</a><a href="tel:+918898732336">+91 8898732336</a><span>Mumbai, Maharashtra, India</span><a href="https://www.instagram.com/usforever391976/" target="_blank">Instagram @usforever391976 ↗</a></div></section>
+
+<section id="about" class="section about-section">
+  <div class="section-bg"></div><div class="section-shade"></div>
+  <div class="section-inner">
+    <p class="eyebrow">ABOUT US</p><h2>Stories made with <span>purpose.</span></h2>
+    <div class="copy-grid"><div><p class="lead">US Forever Films &amp; Entertainment is a creative production house focused on memorable films, web series, music and digital entertainment.</p></div>
+    <div><p>We believe in the power of storytelling to entertain, inspire and connect with audiences. From an idea to the final screen, we bring creativity, passion and cinematic vision to every project.</p>
+    <p>Our aim is simple — to create meaningful entertainment and stories that stay with audiences long after the screen fades.</p></div></div>
+  </div>
+</section>
+
+<section id="upcoming" class="section upcoming-section">
+  <div class="section-bg"></div><div class="section-shade"></div>
+  <div class="section-inner"><p class="eyebrow">UPCOMING PROJECTS</p><h2>What's coming <span>next.</span></h2>
+    <div class="cards">
+      <article class="project-card"><div class="card-number">01</div><h3>Coming Soon</h3><p>New stories, new worlds and new cinematic experiences are currently in development.</p><span class="status">IN DEVELOPMENT</span></article>
+      <article class="project-card"><div class="card-number">02</div><h3>New Original</h3><p>Original film and episodic entertainment created for today's audiences and platforms.</p><span class="status">COMING SOON</span></article>
+      <article class="project-card"><div class="card-number">03</div><h3>More To Be Revealed</h3><p>Watch this space for posters, first looks, teasers and announcements.</p><span class="status">STAY TUNED</span></article>
+    </div>
+  </div>
+</section>
+
+<section id="previous" class="section previous-section">
+  <div class="section-bg"></div><div class="section-shade"></div>
+  <div class="section-inner"><p class="eyebrow">PREVIOUS PROJECTS</p><h2>Stories we've <span>created.</span></h2>
+    <div class="cards">
+      <article class="project-card"><h3>Films &amp; Specials</h3><p>Selected productions and completed projects from the US Forever Films &amp; Entertainment creative slate.</p><span class="status">PROJECTS</span></article>
+      <article class="project-card"><h3>Web Series</h3><p>Original episodic stories developed for digital audiences and emerging platforms.</p><span class="status">SERIES</span></article>
+      <article class="project-card"><h3>Digital Content</h3><p>Music, promotional films, short-form stories and other visual entertainment.</p><span class="status">DIGITAL</span></article>
+    </div>
+  </div>
+</section>
+
+<section id="teasers" class="section teasers-section">
+  <div class="section-bg"></div><div class="section-shade"></div>
+  <div class="section-inner"><p class="eyebrow">TEASERS &amp; TRAILERS</p><h2>First look. <span>Big screen feeling.</span></h2>
+    <p class="section-intro">Teasers, trailers and first looks from our projects will appear here.</p>
+    <div class="media-placeholder"><div class="play-mark">▶</div><h3>Video Showcase</h3><p>Upload your teaser or trailer later and replace this showcase area with your video embed.</p></div>
+  </div>
+</section>
+
+<section id="vision" class="section vision-section">
+  <div class="section-bg"></div><div class="section-shade"></div>
+  <div class="section-inner"><p class="eyebrow">BEHIND THE VISION</p><h2>The people shaping <span>the future.</span></h2>
+    <p class="section-intro">The founders and creative minds shaping the future of US Forever Films &amp; Entertainment.</p>
+    <div class="team-groups">
+      <div class="team-group"><h3>Founder</h3><div class="person-card"><div class="portrait-placeholder">+</div><div><h4>Founder</h4><p>Founder &amp; creative leadership</p></div></div></div>
+      <div class="team-group"><h3>Creative Team</h3><div class="person-card"><div class="portrait-placeholder">+</div><div><h4>Creative Team</h4><p>Story, direction and creative development</p></div></div></div>
+      <div class="team-group"><h3>Production Team</h3><div class="person-card"><div class="portrait-placeholder">+</div><div><h4>Production Team</h4><p>Production, cinematography and execution</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="section gallery-section">
+  <div class="section-bg"></div><div class="section-shade"></div>
+  <div class="section-inner"><p class="eyebrow">GALLERY</p><h2>Inside the <span>frame.</span></h2>
+    <p class="section-intro">Behind-the-scenes moments, production stills, posters and project highlights will be showcased here.</p>
+    <div class="gallery-grid"><div class="gallery-tile"><span>Production</span></div><div class="gallery-tile"><span>Behind The Scenes</span></div><div class="gallery-tile"><span>Posters</span></div><div class="gallery-tile"><span>On Set</span></div></div>
+  </div>
+</section>
+
+<section id="contact" class="section contact-section">
+  <div class="section-bg"></div><div class="section-shade"></div>
+  <div class="section-inner"><p class="eyebrow">CONTACT</p><h2>Let's create something <span>unforgettable.</span></h2>
+    <p class="section-intro">Have a story, project or creative idea? We'd love to hear from you.</p>
+    <div class="contact-grid">
+      <a href="mailto:usforever391976@gmail.com"><small>EMAIL</small><strong>usforever391976@gmail.com</strong></a>
+      <a href="tel:+918898732336"><small>PHONE</small><strong>+91 8898732336</strong></a>
+      <div><small>LOCATION</small><strong>Mumbai, Maharashtra, India</strong></div>
+      <a href="https://www.instagram.com/usforever391976/" target="_blank" rel="noopener"><small>INSTAGRAM</small><strong>@usforever391976 ↗</strong></a>
+    </div>
+    <a class="btn btn-gold contact-button" href="mailto:usforever391976@gmail.com">Start a Conversation</a>
+  </div>
+</section>
 </main>
-<footer>© 2026 US Forever Films & Entertainment</footer>
+
+<footer class="site-footer"><img src="logo.png" alt="US Forever Films & Entertainment"><p>© 2026 US Forever Films &amp; Entertainment. All Rights Reserved.</p></footer>
+<script src="script.js"></script>
 </body>
 </html>
