@@ -30,3 +30,40 @@
 @media(max-width:980px){.main-nav{gap:12px}.main-nav a{font-size:10px}.cards,.team-groups{grid-template-columns:1fr}.gallery-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:760px){.site-header{padding:9px 5vw}.brand img{width:74px}.menu-toggle{display:block;z-index:1002}.main-nav{position:fixed;inset:0;display:flex;flex-direction:column;justify-content:center;gap:8px;padding:90px 30px 40px;background:rgba(3,4,7,.97);transform:translateX(100%);transition:transform .28s}.main-nav.open{transform:translateX(0)}.main-nav a{font-size:14px;letter-spacing:2px;padding:14px}.hero-content{padding-top:65px}.hero-logo{width:145px}.hero h1{font-size:clamp(46px,13vw,68px)}.hero-subtitle{font-size:12px;line-height:1.7}.section{min-height:600px}.section-inner{width:88%;padding:80px 0}.section h2{font-size:45px}.copy-grid,.contact-grid{grid-template-columns:1fr;gap:18px}.cards{grid-template-columns:1fr}.gallery-grid{grid-template-columns:1fr 1fr}.project-card{min-height:220px}}
 @media(max-width:430px){.gallery-grid{grid-template-columns:1fr}.hero-actions{flex-direction:column;align-items:stretch}.btn{width:100%}}
+/* Poster styling for the Previous Work cards */
+.project-card {
+  overflow: hidden;
+  border-radius: 14px;
+  background: rgba(10, 15, 30, 0.92);
+  border: 1px solid rgba(218, 177, 90, 0.35);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+.project-poster {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  background: #080b14;
+}
+.project-poster img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.project-info {
+  padding: 16px;
+  color: #fff;
+}
+.project-info h3 {
+  margin: 0 0 8px;
+  color: #e7c477;
+}
+.project-info p {
+  margin: 6px 0;
+  color: #ddd;
+  line-height: 1.5;
+}
